@@ -1,0 +1,256 @@
+
+/* 全体共通部分 */
+body{
+    margin:0 auto;
+}
+
+
+
+li,a{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    
+}    
+
+ /* 共通部分(ログイン・一覧) */
+ .top__menu{
+    width:100%;
+    text-align: center;
+    background-color: rgb(59, 129, 74);
+    position: fixed;
+    top:0px;
+    z-index: 10;
+}
+
+.top__menu a{
+    padding:10px 40px;
+    margin:0 20px;
+    color:white;
+    background-color: cornflowerblue;
+    font-size:18px;
+    border-radius: 5%;
+}
+
+.top__menu h1{
+    color:white;
+}
+
+a:hover{
+    opacity:0.7;
+    transition:0.5s;
+}
+ 
+
+
+.login__container{
+    background-color: rgb(59, 129, 74);
+    height: 100%;
+    text-align:center;
+    color:white;
+}
+
+.app__title{
+    font-size:28px;
+    padding-top:80px;
+    letter-spacing:16px;
+}
+
+.app__title h2{
+    margin-top:40px;
+}
+
+
+/* ログインページ */
+
+.login__wrapper{
+    margin:80px 0;
+}
+
+.login__wrapper input{
+    height:30px;
+}
+
+.login__button{
+    width:150px;
+    margin-bottom:40px;
+}
+
+/* 人物一覧ページ */
+
+.top__container__index{
+    text-align:center;
+    background-color: rgb(59, 129, 74);
+    color:white;
+}
+
+.top__menu h1{
+    text-align:center;
+    font-size:56px;
+    letter-spacing: 16px;
+}
+
+
+
+.index__wrapper{
+margin-top:270px;
+text-align: center;
+}
+
+
+.index__wrapper a{
+    font-size:30px;
+    letter-spacing: 20px;
+    padding:20px 5px;
+
+    width:500px;
+    text-align: center;
+    color:black;
+    border-bottom:solid 2px black;
+    /* background-color: cornflowerblue; */
+}
+
+.index__wrapper a:hover{
+    background-color: rgb(15, 73, 190);
+    color:white;
+}
+
+.index__wrapper li{
+    display:list-item;
+    text-align:center;
+}
+
+
+
+/* 人物詳細ページ */
+
+.top__menu__person{
+    width:100%;
+    text-align: center;
+    background-color: rgb(59, 129, 74);
+    position: fixed;
+    top:0px;
+    z-index: 10;
+    height: 220px;
+}
+
+.top__menu__person a{
+    padding:10px 40px;
+    margin:0 20px;
+    color:white;
+    background-color: cornflowerblue;
+    font-size:18px;
+    border-radius: 5%;
+}
+
+.top__menu__person h1{
+    font-size:60px;
+    letter-spacing:20px;
+    color:white;
+}
+
+
+.person__info{
+    text-align:center;
+    margin-top: 300px;
+}
+
+.person__info span{
+    margin-left:20px;
+}
+
+.person__info span:hover{
+    cursor: pointer;
+}
+
+
+
+.person__info textarea{
+    width:600px;
+    height: 100px;
+    margin-bottom:20px;
+}
+
+.person__info h1{
+    text-align:center;
+    font-size:56px;
+    letter-spacing: 16px;
+}
+
+
+/* 人物追加ページ */
+
+.top__menu__add{
+    width:100%;
+    text-align: center;
+    background-color: rgb(59, 129, 74);
+    position: fixed;
+    top:0px;
+    z-index: 10;
+
+}
+
+.top__menu__add a{
+    padding:10px 40px;
+    margin:0 20px;
+    color:white;
+    background-color: cornflowerblue;
+    font-size:18px;
+    border-radius: 5%;
+}
+
+
+.add__person__info{
+    text-align:center;
+    margin-top: 270px;
+
+}
+
+
+.add__person__info h1{
+    text-align:center;
+    font-size:56px;
+    letter-spacing: 16px;
+}
+
+.add__person__info h2{
+    font-size:40px;
+}
+
+.add__person__info input{
+    margin-top:30px;
+    height:40px;
+    width:280px;
+    margin-right:50px;
+}
+
+.add__person__info button{
+    height:40px;
+    padding: 0 30px;
+
+}
+
+
+/* 会話テクニックページ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
